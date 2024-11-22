@@ -1,0 +1,67 @@
+/* Basic styling for the card container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Styling for individual cards */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Card image */
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card content */
+.card-content {
+    padding: 15px;
+}
+
+/* Card title */
+.card-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Card description */
+.card-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Read More Button */
+.card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0F4D8F;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for cards and buttons */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-btn:hover {
+    background-color: #f1c40f;
+    color: #333;
+}
